@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý nhân viên</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./4QLNV.css" />
+  </head>
+  <body>
+    <div>
+    <header>
+      <img src="./logo 1.png" alt="" />
+      <h1>QUẢN LÝ NHÂN VIÊN</h1>
+      <div class="menu" id="icon_menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul class="slide_bar" id="slide_bar">
+          <li>
+            <i class="fa-solid fa-basket-shopping"></i>
+            <a href="http://127.0.0.1:5500/2banhang.html">Bán hàng</a> 
+          </li>
+          <li>
+            <i class="fa-solid fa-pen-to-square"></i>
+            <a href="http://127.0.0.1:5500/3QLMENU.html"> Quản lý menu</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-people-line"></i>
+            <a href="http://127.0.0.1:5500/4QLNV.html"> Quản lý nhân viên</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-money-bill-wave"></i>
+            <a href="http://127.0.0.1:5500/5luong.html">Tính lương</a> 
+          </li>
+          <li>
+            <i class="fa-solid fa-right-from-bracket"></i>
+             <a href="http://127.0.0.1:5500/1dangnhap.html">Đăng xuất</a>
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-user"></i>
+            NV1
+          </li>
+      </ul>
+    </header>
+    <section>
+      <div class="form-search">
+        <div class="form">
+          <form action="">
+            <caption>
+              <h2>Thông tin nhân viên</h2>
+            </caption>
+            <table>
+              <tr>
+                <td>Họ và tên:</td>
+                <td>
+                  <input type="text" name="" id="" />
+                </td>
+              </tr>
+              <tr>
+                <td>Số ĐT:</td>
+                <td>
+                  <input type="text" name="" id="" />
+                </td>
+              </tr>
+              <tr>
+                <td>CMND/CCCD:</td>
+                <td>
+                  <input type="text" name="" id="" />
+                </td>
+              </tr>
+              <tr>
+                <td>Địa chỉ:</td>
+                <td>
+                  <input type="text" name="" id="" />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div class="search">
+          <div class="content_item">
+            <div class="box_search item">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Tìm kiếm..." />
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-pen-to-square"></i>
+              Sửa
+            </div>
+            <div class="item">
+              <i class="fa-sharp fa-solid fa-plus"></i>
+              Thêm
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-floppy-disk"></i>
+              Lưu
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-circle-xmark"></i>
+              Hủy
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my_table">
+        <table>
+            <tr>
+                <th>STT</th>
+                <th>Họ và tên</th>
+                <th>Số ĐT</th>
+                <th>CCCD/CMND</th>
+                <th>Địa chỉ</th>
+                <th>Chức năng</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                  <i class="fa-solid fa-trash"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                  <i class="fa-solid fa-trash"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>
+                  <i class="fa-solid fa-trash"></i>
+                </td>
+              </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+        <div class="content_footer">
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                0328044188
+            </div>
+            <div class="location">
+                <i class="fa-solid fa-location-pin"></i>
+                522 Trưng Nữ Vương, Hải Châu, Đà Nẵng
+            </div>
+        </div>
+    </footer>
+  </body>
+  <script src="./js.js"></script>
+</html>

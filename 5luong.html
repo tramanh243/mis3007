@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./5luong.css" />
+  </head>
+  <body>
+    <div>
+    <header>
+      <img src="./logo 1.png" alt="" />
+      <h1>TÍNH LƯƠNG</h1>
+      <div class="menu" id="icon_menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul class="slide_bar" id="slide_bar">
+        <li>
+          <i class="fa-solid fa-basket-shopping"></i>
+          <a href="http://127.0.0.1:5500/2banhang.html">Bán hàng</a> 
+        </li>
+        <li>
+          <i class="fa-solid fa-pen-to-square"></i>
+           <a href="http://127.0.0.1:5500/3QLMENU.html"> Quản lý menu</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-people-line"></i>
+          <a href="http://127.0.0.1:5500/4QLNV.html"> Quản lý nhân viên</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-money-bill-wave"></i>
+          <a href="http://127.0.0.1:5500/5luong.html">Tính lương</a> 
+        </li>
+        <li>
+          <i class="fa-solid fa-right-from-bracket"></i>
+           <a href="http://127.0.0.1:5500/1dangnhap.html">Đăng xuất</a>
+        </li>
+        <li>
+          <i class="fa-regular fa-circle-user"></i>
+          NV1
+        </li>
+      </ul>
+    </header>
+    <div id="main-content">
+        <div class="k1">
+            <p class="MN">BẢNG LƯƠNG CHI TIẾT</p>
+            <div class="mmenu">
+                <table> 
+                    <tr><th> Ngày</th><th class="row">Giờvàoca</th><th class="row">Giờraca</th><th class="row">Sốgiờlàm</th><th>x2</th></tr> 
+                    <tr><th> 01</th><th class="row">07:00</th><th class="row">12:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 02</th><th class="row">07:00</th><th class="row">12:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 03</th><th class="row">07:00</th><th class="row">12:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 04</th><th class="row">12:00</th><th class="row">17:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 05</th><th class="row">07:00</th><th class="row">12:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 06</th><th class="row">07:00</th><th class="row">12:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 07</th><th class="row">17:00</th><th class="row">22:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 08</th><th class="row">07:00</th><th class="row">12:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 09</th><th class="row">12:00</th><th class="row">16:30</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    <tr><th> 10</th><th class="row">07:00</th><th class="row">12:00</th><th class="row">5</th><th><input type="checkbox"></th></tr> 
+                    </table>
+            </div>
+        </div>
+        <div class="k2">
+            <div class="Lnv">TIỀN LƯƠNG NHÂN VIÊN</div>
+            <div class="k3">
+                <div class="nv">
+                    <p>Tháng :</p>
+                    <input type="year" class="mount">
+                    <p>Năm :</p>
+                    <input type="month" class="year">
+                </div>
+                <div class="nv">
+                    <p>Nhân viên :</p>
+                    <input type="search" class="search">
+                </div>
+                <div class="nv">
+                    <p>Mức lương :</p>
+                    <input type="int" class="search">
+                </div>
+                <div class="nv">
+                    <p>Tổng giờ làm :</p>
+                    <input type="int" class="lp">
+                </div>
+                <div class="nv">
+                    <p>Tổng lương :</p>
+                    <input type="int" class="lp">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="content_footer">
+            <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                0328044188
+            </div>
+            <div class="location">
+                <i class="fa-solid fa-location-pin"></i>
+                522 Trưng Nữ Vương, Hải Châu, Đà Nẵng
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="https: // unkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js" ></script>
+    <script src="./js.js"></script>
+  </body>
+
+</html>
